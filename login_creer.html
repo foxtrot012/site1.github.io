@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<title>Création de compte</title>
+		<meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0" >
+		<meta  http-equiv="refresh" content="" >
+		<link rel="stylesheet" href="e_commerce.css">
+		<link rel="icon" type="image/x-icon" href="Icon.ico">
+		<!-- la liste de tous les pays -->
+		
+		<link rel="stylesheet" href="bootstrap-select.min.css"/>
+		<link rel="stylesheet" href="bootstrap.min.css"/>
+		<link rel="stylesheet" href="bootstrap-select-country.min.css"/>
+
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/css/intlTelInput.min.css"/>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/intlTelInput.min.js"></script>
+
+<!--		<link rel="stylesheet" href="https://cdn.tutorialjinni.com/intl-tel-input/17.0.8/css/intlTelInput.css"/>-->
+<!--        <script src="https://cdn.tutorialjinni.com/intl-tel-input/17.0.8/js/intlTelInput.min.js"></script>-->
+	</head>
+
+	<style>
+	label{
+	font-weight: initial;}
+	</style>
+	<body>
+		<div class="formulaire">
+			<h1 class="login">Création de compte</h1>
+		</div>
+		<form class="create">
+			<label for="nom" style="margin-right: 20px">Nom :</label>
+			<input class="inp" type="text" id="nom" style="margin-right: 80px; width: 250px" required>
+			<label for="Prénoms">Prénoms :</label>
+			<input class="inp" type="text" id="prénoms" style="width: 310px" required><br>
+			<label for="sexe" style="margin-right: 2px">Genre :</label>
+			<select class="inp" id="sexe" name="genre" style="margin-right: 230px;" required>
+				<option value="masculin">Masculin</option>
+				<option value="feminin">Féminin</option>
+			</select>
+			<label for="dateN" style="margin-left: -20px">Date de naissance :</label>
+			<input class="inp" type="date" id="dateN" min="2000-01-01" required><br>
+			<label for="mail" style="margin-right: 8px">Email :</label>
+			<input class="inp" type="email" id="mail" style="width: 400px"  required><br>
+			<label style="margin-right: 20px">Pays :</label>
+			<select class="selectpicker countrypicker" data-flag="true" ></select>
+			<label>Numéro de téléphone :</label>
+			<input class="inp" type="text" id="phone" required style="width: 280px;"><br>
+			<label for="passw" style="margin-right: 208px;">Mot de passe :</label>
+			<input class="inp" type="password" id="passw" style="margin-top: 10px;" required><br>
+			<label for="passwC" style="margin-right: 2px;">Confirmation de mot de passe :</label>
+			<input class="inp" type="password" id="passwC" required>
+			
+			<br><a href="index.html"><input class="inp" type="submit" id="valide" value="Créer" style="margin-left: 850px" size="50px"></a>
+		</form>
+
+	<footer>
+		<p> Kam's - Achat et Vente des produits de qualités | copyright &copy2024,Conakry - République de Guinée | Tous droits réservés</p>
+	</footer>
+	
+ <!-- ************************** Les scripts **************************	 -->
+	<script src="jquery-3.7.1.min.js"></script>
+	<script src="bootstrap.min.js"></script>
+	<script src="bootstrap-select.min.js"></script>
+	<script src="bootstrap-select-country.min.js"></script>
+
+<!--		<script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/intlTelInput.min.js"></script>-->
+		<script>
+			let input = document.querySelector("#phone");
+			window.intlTelInput(input, {
+				separateDialCode: true,
+			});
+		</script>
+
+<!--		<script>-->
+<!--		let input = document.querySelector("#phone");-->
+<!--		window.intlTelInput(input, {-->
+<!--			separateDialCode: true,-->
+<!--		});-->
+<!--		</script>-->
+	
+	</body>
+</html>
