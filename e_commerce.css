@@ -252,10 +252,10 @@ nav{
 	display: none;
 }
 .button_recherche{
-	height: 50px;
-	font-size: 20px;
+	height: 30px;
+	font-size: 10px;
 	width: 5em;
-	max-width: 20%;
+	max-width: 10%;
 	margin-left: -5px;
 	padding: 10px;
 	border-radius: 0 20px 20px 0;
