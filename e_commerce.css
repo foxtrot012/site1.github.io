@@ -1,4 +1,4 @@
-
+#
 html{
 	scroll-behavior: smooth;
 }
@@ -248,7 +248,9 @@ footer h2{font-size: 25px;}
 ul {
 	display: none;
 }	
-	
+nav{
+	display: none;
+}
 }
 /*------------------------------------------- Fin Responsive-----------------------------------*/
 
