@@ -1,4 +1,4 @@
-#
+##
 html{
 	scroll-behavior: smooth;
 }
@@ -254,7 +254,7 @@ nav{
 .button_recherche{
 	display: none;
 }
-input_recherche{
+.input_recherche{
 	height: 40px;
 	font-size: 15px;
 	width: 20em;
