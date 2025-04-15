@@ -273,7 +273,9 @@ nav{
 .onglet_mobile {
 	display : block;
 	}
-
+.sect1{
+	display : block;
+}
 }
 /*------------------------------------------- Fin Responsive-----------------------------------*/
 
