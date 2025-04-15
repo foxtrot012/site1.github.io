@@ -252,7 +252,14 @@ nav{
 	display: none;
 }
 .button_recherche{
-	display: none;
+	height: 50px;
+	font-size: 20px;
+	width: 8em;
+	max-width: 20%;
+	margin-left: -5px;
+	padding: 10px;
+	border-radius: 0 20px 20px 0;
+	float: left;
 }
 .input_recherche{
 	height: 40px;
