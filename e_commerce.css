@@ -1,4 +1,3 @@
-
 html{
 	scroll-behavior: smooth;
 }
@@ -201,7 +200,7 @@ footer{
 	background-color: gray;
 	color: orange;
 	padding: 30px 100px;
-	position: fixed;
+	position: relative;
 }
 footer p{
 	text-align: center;
@@ -273,8 +272,17 @@ nav{
 .onglet_mobile {
 	display : block;
 	}
-.sect1{
+.sections{
 	display : block;
+}
+.sect1{
+border: 2px solid black;
+margin-top: 20px;
+margin-right: 20px;
+max-width: 1366px;
+float: none;
+height: 20em;
+padding: 5px;
 }
 }
 /*------------------------------------------- Fin Responsive-----------------------------------*/
