@@ -250,6 +250,12 @@ ul {
 nav{
 	display: none;
 }
+.sect1{
+	float: none;
+}
+.sections{
+	display: block;
+}
 .button_recherche{
 	height: 40px;
 	font-size: 15px;
