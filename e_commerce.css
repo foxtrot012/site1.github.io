@@ -147,7 +147,7 @@ header p{
 }
 /* ****************les sections**************** */
 .sections{
-	display:block;
+	display:flex;
 	width: 100%;
 }
 .sect1{
@@ -272,7 +272,6 @@ nav{
 .onglet_mobile {
 	display : block;
 	}
-
 
 }
 /*------------------------------------------- Fin Responsive-----------------------------------*/
