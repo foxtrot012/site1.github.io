@@ -196,7 +196,7 @@ header p{
 }
 /*  ****************Pieds de page**************** */
 footer{
-	/* margin-top: 30px;*/
+	margin-top: 30px;
 	border-top: 8px solid #55F608;
 	background-color: gray;
 	color: orange;
