@@ -272,18 +272,8 @@ nav{
 .onglet_mobile {
 	display : block;
 	}
-.sections{
-	display : block;
-}
-.sect1{
-border: 2px solid black;
-margin-top: 20px;
-margin-right: 20px;
-max-width: 1366px;
-float: none;
-height: 20em;
-padding: 5px;
-}
+
+
 }
 /*------------------------------------------- Fin Responsive-----------------------------------*/
 
