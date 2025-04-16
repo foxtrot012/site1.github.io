@@ -148,7 +148,7 @@ header p{
 }
 /* ****************les sections**************** */
 .sections{
-	display:flex;
+	display:block;
 	width: 100%;
 }
 .sect1{
