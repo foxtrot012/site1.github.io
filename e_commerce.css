@@ -278,7 +278,13 @@ nav{
 .onglet_mobile {
 	display : block;
 	}
-
+header h1{
+	color: white;
+	font-size: 100%;
+	text-align: center;
+	margin-top: -30px;
+	max-width: 100%;
+}
 }
 /*------------------------------------------- Fin Responsive-----------------------------------*/
 
