@@ -252,6 +252,7 @@ nav{
 }
 .sect1{
 	float: none;
+	margin-right: 0;
 }
 .sections{
 	display: block;
