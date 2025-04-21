@@ -253,10 +253,11 @@ nav{
 .sect1{
 	float: none;
 	
-	margin: 5px;
+	margin-right: 0;
 }
 .sections{
 	display: block;
+	margin: 5px;
 }
 .button_recherche{
 	height: 40px;
