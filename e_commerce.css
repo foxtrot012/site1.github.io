@@ -267,6 +267,9 @@ header p{
 nav{
 	display: none;
 }
+.onglet_mobile nav{
+	display: flex;
+}
 .sect1{
 	float: none;
 	margin: 5px;
