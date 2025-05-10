@@ -264,12 +264,12 @@ header p{
 	text-align: center;
 	padding: 0 0;
 }
-nav{
+.onglets nav{
 	display: none;
 }
-.onglet_mobile nav{
+/*.onglet_mobile nav{
 	display: flex;
-}
+}*/
 .sect1{
 	float: none;
 	margin: 5px;
