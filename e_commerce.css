@@ -265,6 +265,12 @@ header p{
 	text-align: center;
 	padding: 0 0;
 }
+.ima img{
+	position: absolute;
+	top: 0;
+	height: 50px;
+	width: 55px;
+}
 .onglets{
 	display: none;
 }
