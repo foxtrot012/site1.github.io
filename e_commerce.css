@@ -277,6 +277,9 @@ header p{
 /*.onglet_mobile nav{
 	display: flex;
 }*/
+.onglet_mobile span{
+	display: none;
+}
 .sect1{
 	float: none;
 	margin: 5px;
