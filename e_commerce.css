@@ -26,7 +26,7 @@ body{max-width: 100% !important;
 	}
 .seh{
 	padding: 5px 15px;
-	text-align: right;
+	text-align: center;
 	}
 nav a{	
 	margin: 0;
@@ -298,9 +298,6 @@ header p{
 	padding: 10px 15px 10px 20px;
 	float: left;
 }
-.onglet_mobile {
-	display : block;
-	}
 header h1{
 	color: white;
 	font-size: 200%;
