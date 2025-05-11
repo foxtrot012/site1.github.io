@@ -274,8 +274,12 @@ header p{
 .onglets{
 	display: none;
 }
-ul{
+.onglet_mobile ul{
 	padding: 0;
+	margin-top: 60px;
+}
+.onglet_mobile ul li{
+	margin-top: 50px;
 }
 /*.onglet_mobile nav{
 	display: flex;
