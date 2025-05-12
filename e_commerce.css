@@ -108,11 +108,12 @@ nav ul li .marque .lis li a:hover{background-color: gray;color: black;}
 .toggle_btn{
 	height: 30px;
 	width: 30px;
-	position: relative;
+	position: absolute;
 	float: right;
 	margin-right: 10px;
 	margin-top: 5px;
 	cursor: pointer;
+	right: 0;
 }
 .toggle_btn span{
 	height: 3px;
