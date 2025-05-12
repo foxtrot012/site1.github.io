@@ -287,7 +287,7 @@ header p{
 .onglet_mobile span{
 	display: none;
 }
-.lis{
+ul li .lis{
 	margin: 0;
 }
 .sect1{
