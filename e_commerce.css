@@ -323,6 +323,14 @@ header p{
 .onglet_mobile span{
 	display: none;
 }
+.onglet_mobile {
+	margin-left: -200px;
+	transition-duration: 0.2s;
+}
+.onglet_mobile_open {
+	margin-left: 0;
+	transition-duration: 0.2s;
+}
 ul li .lis{
 	margin: 0;
 }
