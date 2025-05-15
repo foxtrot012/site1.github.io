@@ -311,9 +311,10 @@ header p{
 }
 .ima img{
 	position: absolute;
-	top: 0;
-	height: 50px;
-	width: 55px;
+	top: 2px;
+	height: 80px;
+	width: 85px;
+	left: 55px;
 }
 .onglets{
 	display: none;
