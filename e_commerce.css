@@ -148,6 +148,7 @@ nav ul li .marque .lis li a:hover{background-color: gray;color: black;}
 .onglet_mobile_open {
 	margin-left: 0;
 	transition-duration: 0.2s;
+ 	border-bottom-right-radius: 20px;
 }
 
 /* ****************Image_acceuil**************** */
