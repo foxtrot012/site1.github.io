@@ -370,6 +370,24 @@ header h1{
 	margin-top: -30px;
 	max-width: 100%;
 }
+/*-------------Login---------------*/
+.login{
+	font-size: 200%;
+	text-align: center;
+	border: 6px;
+}
+.txt{
+	text-align: left;
+	/* display: inline-block; */
+	font-size: 20px;
+}	
+.cadre2{
+	border-radius: 20px;
+}
+.boutonS{
+	text-align: right;
+	padding: 5px;
+}	
 }
 /*------------------------------------------- Fin Responsive-----------------------------------*/
 
@@ -377,7 +395,6 @@ header h1{
 .login{
 	font-size: 80px;
 	text-align: center;
-	border: 6px;
 }
 .formulaire{
 	align-items: center;
@@ -395,7 +412,6 @@ header h1{
 	text-align: left;
 	/* display: inline-block; */
 	font-size: 30px;
-	top: 30px;
 }
 .cadre{
 	position: relative;
