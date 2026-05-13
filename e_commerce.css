@@ -259,7 +259,7 @@ footer{
 	border-top: 8px solid #55F608;
 	background-color: gray;
 	color: orange;
-	padding: 30px 100px;
+	/* padding: 30px 100px; */
 	position: relative;
 	display: flex;
 	justify-content: center;
