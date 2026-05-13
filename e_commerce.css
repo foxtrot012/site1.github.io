@@ -261,6 +261,9 @@ footer{
 	color: orange;
 	padding: 30px 100px;
 	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 footer p{
 	text-align: center;
