@@ -41,7 +41,9 @@ nav a:hover{
 }
 a:hover{color: #a64676;
 }
-a{text-decoration: none;}
+a{text-decoration: none;
+	color: inherit;
+}
 	
 .bar ul, .bar li {
 	margin: 0;
@@ -203,8 +205,7 @@ header p{
 	border-radius: 0 20px 20px 0;
 	float: left;
 }
-.search{
-}
+
 /* ****************les sections**************** */
 .sections{
 	display:flex;
