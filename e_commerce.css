@@ -300,6 +300,10 @@ footer h2{font-size: 25px;}
 	width: 30px;
 	
 }
+.icon-om{
+   width:24px;
+   height:24px;
+}
 /*-------------------------------------------Responsive-----------------------------------*/
 /* max-width: 1065px; */
 @media screen and (max-width:1065px){
